@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\appsettings.json",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\appsettings.json",
+              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\appsettings.json",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-18T03:30:22.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
