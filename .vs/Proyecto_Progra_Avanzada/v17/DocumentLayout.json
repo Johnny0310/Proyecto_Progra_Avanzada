@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\",
+  "WorkspaceRootPath": "C:\\Users\\wayne\\source\\repos\\Proyecto_Progra_Avanzada\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\wayne\\source\\repos\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\wayne\\source\\repos\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\models\\evolucionpokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\models\\evolucionpokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\wayne\\source\\repos\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\models\\debilidadespokemones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\models\\debilidadespokemones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\wayne\\source\\repos\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\models\\tipopokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\models\\tipopokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\wayne\\source\\repos\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\models\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\models\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\wayne\\source\\repos\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +34,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EvolucionPokemon.cs",
+              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Models\\EvolucionPokemon.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Models\\EvolucionPokemon.cs",
+              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Models\\EvolucionPokemon.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Models\\EvolucionPokemon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T18:03:49.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TipoPokemon.cs",
+              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Models\\TipoPokemon.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Models\\TipoPokemon.cs",
+              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Models\\TipoPokemon.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Models\\TipoPokemon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T20:05:00.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pokemon.cs",
+              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Models\\Pokemon.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Models\\Pokemon.cs",
+              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Models\\Pokemon.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Models\\Pokemon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T17:30:15.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DebilidadesPokemones.cs",
+              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Models\\DebilidadesPokemones.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Models\\DebilidadesPokemones.cs",
+              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Models\\DebilidadesPokemones.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Models\\DebilidadesPokemones.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T17:53:21.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T20:18:35.042Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\appsettings.json",
               "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\appsettings.json",
-              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\appsettings.json",
+              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\appsettings.json",
               "RelativeToolTip": "Proyecto_Progra_Avanzada\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-18T03:30:22.707Z",
+              "WhenOpened": "2024-07-23T20:09:48.351Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }
