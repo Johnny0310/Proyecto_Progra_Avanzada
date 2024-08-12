@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Proyecto_Progra_Avanzada.props" />
+</Project>

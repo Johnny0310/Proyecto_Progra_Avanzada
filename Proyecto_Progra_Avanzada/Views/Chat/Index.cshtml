@@ -1,0 +1,16 @@
+﻿@model IEnumerable<int>
+
+<h2>Mis Chats</h2>
+
+@foreach (var chatId in Model)
+{
+    <div>
+        <h3>Chat @chatId</h3>
+
+        <form asp-action="EnviarMensaje" method="post">
+            <input type="hidden" name="chatId" value="@chatId" />
+            <input type="text" name="contenido" required />
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+}

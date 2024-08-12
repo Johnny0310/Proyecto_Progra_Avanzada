@@ -1,0 +1,26 @@
+﻿
+@model IEnumerable<Proyecto_Progra_Avanzada.Models.Reto>
+
+<h2>Mis Retos</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Retador</th>
+            <th>Retado</th>
+            <th>Fecha</th>
+            <th>Estado</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var reto in Model)
+        {
+            <tr>
+                <td>@reto.Retador.UserName</td>
+                <td>@reto.Retado.UserName</td>
+                <td>@reto.FechaReto</td>
+                <td>@reto.Estado</td>
+            </tr>
+        }
+    </tbody>
+</table>
