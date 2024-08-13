@@ -20,6 +20,9 @@ namespace Proyecto_Progra_Avanzada.Models
         public DbSet<AspNetUserRoles> AspNetUserRoles { get; set; }
         public DbSet<AspNetUsers> AspNetUsers { get; set; }
         public DbSet<AspNetRoles> AspNetRoles { get; set; }
+        public DbSet<Pokedex> Pokedex { get; set; }
+        public DbSet<Pokemon> Pokemon { get; set; }
+        public DbSet<TiposPokemon> TiposPokemon { get; set; }
 
     }
 }

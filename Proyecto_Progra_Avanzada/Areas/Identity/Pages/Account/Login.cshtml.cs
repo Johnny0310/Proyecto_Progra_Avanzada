@@ -103,8 +103,8 @@ namespace Proyecto_Progra_Avanzada.Areas.Identity.Pages.Account
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
-            returnUrl ??= Url.Content("~/");
-            //returnUrl ??= Url.Action("ChooseRole", "Home");
+            //returnUrl ??= Url.Content("~/");
+            returnUrl ??= Url.Action("MainView", "Home");
 
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             
