@@ -8614,11 +8614,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj",
+      "projectUniqueName": "C:\\Users\\alfre\\Desktop\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj",
       "projectName": "Proyecto_Progra_Avanzada",
-      "projectPath": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj",
+      "projectPath": "C:\\Users\\alfre\\Desktop\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj",
       "packagesPath": "C:\\Users\\alfre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\obj\\",
+      "outputPath": "C:\\Users\\alfre\\Desktop\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alfre\\AppData\\Roaming\\NuGet\\NuGet.Config",

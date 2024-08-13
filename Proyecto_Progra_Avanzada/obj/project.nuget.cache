@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9OuHRK7QoEc=",
+  "dgSpecHash": "l+tM1wkv1cM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj",
+  "projectFilePath": "C:\\Users\\alfre\\Desktop\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alfre\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\alfre\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
