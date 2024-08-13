@@ -1,0 +1,22 @@
+﻿@model Pokedex
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<p>@ViewData["ID"]</p>
+
+<body>
+    <form method="post" asp-controller="Home" asp-action="GetPokemon">
+        <!-- Campo oculto para almacenar el ID del Pokémon generado -->
+        <input type="hidden" id="PokemonID" name="PokemonID" value="">
+
+        <input type="hidden" name="fecha_captura" value="@DateTime.Now.ToString()"> <!-- Fecha actual -->
+        <!-- Botón que genera el ID del Pokémon y envía el formulario -->
+        <button type="submit" onclick="capturarPokemon()" class="btn btn-primary">Capturar Pokémon</button>
+    </form>
+
+    <button type="button" onclick="location.href='@Url.Action("OpenPokedex", "Home")'" class="btn btn-primary">Open Pokedex</button>
+
+</body>
