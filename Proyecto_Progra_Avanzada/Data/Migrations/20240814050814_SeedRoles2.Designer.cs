@@ -12,15 +12,15 @@ using Proyecto_Progra_Avanzada.Data;
 namespace Proyecto_Progra_Avanzada.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240811014609_mssql.local_migration_375")]
-    partial class mssqllocal_migration_375
+    [Migration("20240814050814_SeedRoles2")]
+    partial class SeedRoles2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.5")
+                .HasAnnotation("ProductVersion", "8.0.7")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);

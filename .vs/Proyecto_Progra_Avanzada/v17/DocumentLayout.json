@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\controllers\\retoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\controllers\\retoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\data\\migrations\\20240814050814_seedroles2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\data\\migrations\\20240814050814_seedroles2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -18,8 +38,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RetosController.cs",
+              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Controllers\\RetosController.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Controllers\\RetosController.cs",
+              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Controllers\\RetosController.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Controllers\\RetosController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAswBUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:35:52.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Controllers\\ChatController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:35:11.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAB5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:33:34.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:29:04.746Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -38,7 +110,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "20240814050814_SeedRoles2.cs",
+              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Data\\Migrations\\20240814050814_SeedRoles2.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Data\\Migrations\\20240814050814_SeedRoles2.cs",
+              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Data\\Migrations\\20240814050814_SeedRoles2.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Data\\Migrations\\20240814050814_SeedRoles2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T05:08:14.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "OpenPokedex.cshtml",
               "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Home\\OpenPokedex.cshtml",
               "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Views\\Home\\OpenPokedex.cshtml",
@@ -50,16 +135,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\appsettings.json",
               "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\appsettings.json",
               "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\appsettings.json",
               "RelativeToolTip": "Proyecto_Progra_Avanzada\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-18T03:30:22.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T03:30:22.707Z"
             }
           ]
         }

@@ -123,7 +123,6 @@ C:\Users\alfre\Documents\GitHub\Proyecto_Progra_Avanzada\Proyecto_Progra_Avanzad
 C:\Users\alfre\Documents\GitHub\Proyecto_Progra_Avanzada\Proyecto_Progra_Avanzada\obj\Debug\net8.0\Proyecto_Progra_Avanzada.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\alfre\Documents\GitHub\Proyecto_Progra_Avanzada\Proyecto_Progra_Avanzada\obj\Debug\net8.0\Proyecto_Progra_Avanzada.RazorAssemblyInfo.cache
 C:\Users\alfre\Documents\GitHub\Proyecto_Progra_Avanzada\Proyecto_Progra_Avanzada\obj\Debug\net8.0\Proyecto_Progra_Avanzada.RazorAssemblyInfo.cs
-C:\Users\alfre\Documents\GitHub\Proyecto_Progra_Avanzada\Proyecto_Progra_Avanzada\obj\Debug\net8.0\Proyecto_Progra_Avanzada.sourcelink.json
 C:\Users\alfre\Documents\GitHub\Proyecto_Progra_Avanzada\Proyecto_Progra_Avanzada\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\alfre\Documents\GitHub\Proyecto_Progra_Avanzada\Proyecto_Progra_Avanzada\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\alfre\Documents\GitHub\Proyecto_Progra_Avanzada\Proyecto_Progra_Avanzada\obj\Debug\net8.0\staticwebassets\msbuild.Proyecto_Progra_Avanzada.Microsoft.AspNetCore.StaticWebAssets.props

@@ -10,7 +10,7 @@ namespace Proyecto_Progra_Avanzada.Data
             : base(options)
         {
         }
-        
+
         public DbSet<Reto> Retos { get; set; }
         public DbSet<MensajeChat> MensajesChat { get; set; }
         public DbSet<ParticipanteChat> ParticipantesChat { get; set; }
@@ -19,7 +19,7 @@ namespace Proyecto_Progra_Avanzada.Data
         {
             base.OnModelCreating(builder);
 
-            
+
         }
     }
 }
