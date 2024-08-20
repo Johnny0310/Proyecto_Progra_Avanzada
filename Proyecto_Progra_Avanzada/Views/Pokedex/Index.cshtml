@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Proyecto_Progra_Avanzada.Models.Pokedex>
+
+@{
+    ViewData["Title"] = "Pokedex";
+}
+
+<h1>Pokedex</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Crear Nuevo Registro</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.id_Pokedex)</th>
+            <th>@Html.DisplayNameFor(model => model.PokemonID)</th>
+            <th>@Html.DisplayNameFor(model => model.fecha_captura)</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.id_Pokedex)</td>
+                <td>@Html.DisplayFor(modelItem => item.PokemonID)</td>
+                <td>@Html.DisplayFor(modelItem => item.fecha_captura)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.id_Pokedex" class="btn btn-primary">Editar</a>
+                    <a asp-action="Details" asp-route-id="@item.id_Pokedex" class="btn btn-info">Detalles</a>
+                    <a asp-action="Delete" asp-route-id="@item.id_Pokedex" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

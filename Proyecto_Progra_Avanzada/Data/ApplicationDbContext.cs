@@ -15,6 +15,8 @@ namespace Proyecto_Progra_Avanzada.Data
         public DbSet<MensajeChat> MensajesChat { get; set; }
         public DbSet<ParticipanteChat> ParticipantesChat { get; set; }
 
+        public DbSet<Pokedex> Pokedex { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

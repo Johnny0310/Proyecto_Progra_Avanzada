@@ -1,0 +1,38 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Proyecto_Progra_Avanzada.Models.Pokedex
+
+@{
+    ViewData["Title"] = "Editar Registro en Pokedex";
+}
+
+<h1>Editar Registro en Pokedex</h1>
+
+<h4>Pokedex</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <input type="hidden" asp-for="id_Pokedex" />
+            <div class="form-group">
+                <label asp-for="PokemonID" class="control-label"></label>
+                <input asp-for="PokemonID" class="form-control" />
+                <span asp-validation-for="PokemonID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="fecha_captura" class="control-label"></label>
+                <input asp-for="fecha_captura" class="form-control" />
+                <span asp-validation-for="fecha_captura" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Guardar Cambios" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Volver a la Lista</a>
+</div>

@@ -1,22 +1,122 @@
+/* Ajustes Generales */
 html {
-  font-size: 14px;
+    font-size: 14px;
+    background-color: #f5f5f5; /* Fondo suave */
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth; /* Suaviza el desplazamiento */
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
+/* Tipografía y Estilo del Cuerpo */
 body {
-  margin-bottom: 60px;
+    margin: 0;
+    padding-top: 70px; /* Evita que el contenido quede debajo de la barra de navegación */
+    color: #333;
+    background-image: url('/images/image-Background.jpeg'); /* Fondo temático */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Botones */
+.btn {
+    background-color: #ffcc00; /* Amarillo Pokémon */
+    color: #2a75bb; /* Azul clásico */
+    border: 2px solid #2a75bb;
+    border-radius: 12px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+    margin-right: 10px; /* Espaciado entre botones */
+}
+
+    .btn:hover {
+        background-color: #2a75bb;
+        color: #ffcc00;
+        transform: scale(1.05);
+    }
+
+    .btn:focus,
+    .btn:active:focus,
+    .btn-link.nav-link:focus,
+    .form-control:focus,
+    .form-check-input:focus {
+        box-shadow: 0 0 0 0.1rem #ffcc00, 0 0 0 0.25rem #2a75bb;
+        outline: none;
+    }
+
+/* Inputs y Formularios */
+.form-control {
+    border-radius: 8px;
+    border: 2px solid #2a75bb;
+    padding: 10px;
+}
+
+    .form-control:focus {
+        border-color: #ffcc00;
+        box-shadow: 0 0 0 0.1rem #ffcc00, 0 0 0 0.25rem #2a75bb;
+    }
+
+/* Navegación */
+.navbar {
+    background-color: #000; /* Negro */
+    border-bottom: 4px solid #ffcc00;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que la navbar esté por encima del contenido */
+}
+
+    .navbar a {
+        color: #fff !important;
+        transition: color 0.3s ease;
+    }
+
+        .navbar a:hover {
+            color: #ffcc00 !important;
+        }
+
+/* Links */
+a {
+    color: #2a75bb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+    a:hover {
+        color: #ffcc00;
+    }
+
+/* Ajustes de Contenedores */
+.container {
+    margin-top: 30px;
+    padding-top: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #2a75bb;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 4px solid #ffcc00;
+}
+
+/* Media Queries para Mejorar la UX */
+@media (max-width: 768px) {
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
 }
