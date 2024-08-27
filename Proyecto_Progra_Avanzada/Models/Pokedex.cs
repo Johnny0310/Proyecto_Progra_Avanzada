@@ -13,5 +13,11 @@ namespace Proyecto_Progra_Avanzada.Models
         public int PokemonID { get; set; }
 
         public DateTime fecha_captura { get; set; }
+        
+        public int vida {  get; set; }
+
+        public int victorias { get; set; }
+
+        public int numeroEvolucion {  get; set; }
     }
 }

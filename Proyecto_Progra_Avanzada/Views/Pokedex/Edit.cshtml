@@ -9,30 +9,59 @@
     ViewData["Title"] = "Editar Registro en Pokedex";
 }
 
-<h1>Editar Registro en Pokedex</h1>
+@if (Model is null)
+{
+    <p>No hay una pokedex con ese ID</p>
+}
 
-<h4>Pokedex</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <input type="hidden" asp-for="id_Pokedex" />
-            <div class="form-group">
-                <label asp-for="PokemonID" class="control-label"></label>
-                <input asp-for="PokemonID" class="form-control" />
-                <span asp-validation-for="PokemonID" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="fecha_captura" class="control-label"></label>
-                <input asp-for="fecha_captura" class="form-control" />
-                <span asp-validation-for="fecha_captura" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Guardar Cambios" class="btn btn-primary" />
-            </div>
-        </form>
+else
+{
+
+    <h1>Editar Registro en Pokedex</h1>
+
+    <h4>Pokedex</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Edit" method="post">
+                <input type="hidden" asp-for="id_Pokedex" />
+                <div class="form-group">
+                    <label asp-for="PokemonID" class="control-label"></label>
+                    <input asp-for="PokemonID" class="form-control" />
+                    <span asp-validation-for="PokemonID" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="fecha_captura" class="control-label"></label>
+                    <input asp-for="fecha_captura" class="form-control" />
+                    <span asp-validation-for="fecha_captura" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="victorias" class="control-label"></label>
+                    <input asp-for="victorias" class="form-control" />
+                    <span asp-validation-for="victorias" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="vida" class="control-label"></label>
+                    <input asp-for="vida" class="form-control" />
+                    <span asp-validation-for="vida" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="numeroEvolucion" class="control-label"></label>
+                    <input asp-for="numeroEvolucion" class="form-control" />
+                    <span asp-validation-for="numeroEvolucion" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Guardar Cambios" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
     </div>
-</div>
-<div>
-    <a asp-action="Index">Volver a la Lista</a>
-</div>
+    <div>
+        <a asp-action="Index">Volver a la Lista</a>
+    </div>
+}

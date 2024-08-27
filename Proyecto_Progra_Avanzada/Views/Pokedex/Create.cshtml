@@ -15,7 +15,12 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Create" method="post">
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
             <div class="form-group">
                 <label asp-for="PokemonID" class="control-label"></label>
                 <input asp-for="PokemonID" class="form-control" />
@@ -26,6 +31,25 @@
                 <input asp-for="fecha_captura" class="form-control" />
                 <span asp-validation-for="fecha_captura" class="text-danger"></span>
             </div>
+
+            <div class="form-group">
+                <label asp-for="vida" class="control-label"></label>
+                <input asp-for="vida" class="form-control" />
+                <span asp-validation-for="victorias" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="victorias" class="control-label"></label>
+                <input asp-for="victorias" class="form-control" />
+                <span asp-validation-for="victorias" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="numeroEvolucion" class="control-label"></label>
+                <input asp-for="numeroEvolucion" class="form-control" />
+                <span asp-validation-for="numeroEvolucion" class="text-danger"></span>
+            </div>
+
             <div class="form-group">
                 <input type="submit" value="Crear" class="btn btn-primary" />
             </div>
