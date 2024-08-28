@@ -1,5 +1,5 @@
 ﻿
-@model IEnumerable<Proyecto_Progra_Avanzada.Models.Reto>
+@model IEnumerable<Proyecto_Progra_Avanzada.Models.Retos>
 
 <h2>Mis Retos</h2>
 
@@ -16,10 +16,10 @@
         @foreach (var reto in Model)
         {
             <tr>
-                <td>@reto.Retador.UserName</td>
-                <td>@reto.Retado.UserName</td>
+                <td>@reto.RetadorID</td>
+                <td>@reto.RetadoID</td>
                 <td>@reto.FechaReto</td>
-                <td>@reto.Estado</td>
+                <td>@reto.Ganador</td>
             </tr>
         }
     </tbody>

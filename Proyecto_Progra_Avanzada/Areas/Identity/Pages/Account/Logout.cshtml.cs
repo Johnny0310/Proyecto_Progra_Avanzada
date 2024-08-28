@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using Proyecto_Progra_Avanzada.Data;
+using Proyecto_Progra_Avanzada.Models;
 
 namespace Proyecto_Progra_Avanzada.Areas.Identity.Pages.Account
 {
@@ -16,15 +18,28 @@ namespace Proyecto_Progra_Avanzada.Areas.Identity.Pages.Account
     {
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly ILogger<LogoutModel> _logger;
+        private readonly ApplicationDbContext _context;
+        private readonly UserManager<IdentityUser> _userManager;
 
-        public LogoutModel(SignInManager<IdentityUser> signInManager, ILogger<LogoutModel> logger)
+        public LogoutModel(SignInManager<IdentityUser> signInManager, ILogger<LogoutModel> logger, ApplicationDbContext context, UserManager<IdentityUser> userManager)
         {
             _signInManager = signInManager;
             _logger = logger;
+            _context = context;
+            _userManager = userManager;
         }
 
         public async Task<IActionResult> OnPost(string returnUrl = null)
         {
+            var userId = _userManager.GetUserId(this.User);
+
+            var user = _context.ApplicationUsers.FirstOrDefault(p => p.Id == userId);
+
+            if (user != null)
+            {
+                user.IsOnline = false;
+                _context.SaveChanges();
+            }
             await _signInManager.SignOutAsync();
             _logger.LogInformation("User logged out.");
             if (returnUrl != null)

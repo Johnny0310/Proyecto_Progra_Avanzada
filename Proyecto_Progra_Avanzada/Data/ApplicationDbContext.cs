@@ -11,11 +11,14 @@ namespace Proyecto_Progra_Avanzada.Data
         {
         }
 
-        public DbSet<Reto> Retos { get; set; }
         public DbSet<MensajeChat> MensajesChat { get; set; }
         public DbSet<ParticipanteChat> ParticipantesChat { get; set; }
 
         public DbSet<Pokedex> Pokedex { get; set; }
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+        public DbSet<Retos> Retos { get; set; }
+        public DbSet<Pokemon> Pokemon { get; set; }
+        public DbSet<TiposPokemon> TiposPokemon { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

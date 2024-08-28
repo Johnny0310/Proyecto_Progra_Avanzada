@@ -10,7 +10,7 @@ using Proyecto_Progra_Avanzada.Models;
 
 namespace Proyecto_Progra_Avanzada.Controllers
 {
-    //[Authorize(Roles = "Entrenador")]
+    [Authorize(Roles = "Entrenador")]
     public class ChatController : Controller
     {
         private readonly ApplicationDbContext _context;

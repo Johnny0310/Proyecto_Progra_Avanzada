@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Proyecto_Progra_Avanzada.Models.ApplicationUser>
+
+
+<h2>Mis Retos</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Correo</th>
+            <th>Empezar Reto</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var userList in Model)
+        {
+            <tr>
+                <td>@userList.FirstName</td>
+                <td>@userList.LastName</td>
+                <td>@userList.UserName</td>
+                <td>
+                    <form method="post" asp-controller="Home" asp-action="SubmitReto">
+                        <input type="hidden" name=RetadorID value=@ViewData["RetadorID"] />
+                        <input type="hidden" name=RetadoID value=@userList.Id />
+                        <input type="hidden" name="FechaReto" value="@DateTime.Now.ToString()" />
+                        <button type="submit">Retar</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -31,11 +31,12 @@ namespace Proyecto_Progra_Avanzada.Controllers
             return View(retos);
         }
 
+        /*
         [HttpPost]
         public async Task<IActionResult> CrearReto(string retadoId)
         {
             var retador = await _userManager.GetUserAsync(User);
-            var reto = new Reto
+            var reto = new Retos
             {
                 RetadorID = retador.Id,
                 RetadoID = retadoId,
@@ -46,5 +47,6 @@ namespace Proyecto_Progra_Avanzada.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+        */
     }
 }

@@ -864,3 +864,4 @@ C:\Users\wayne\Source\Repos\Proyecto_Progra_Avanzada\Proyecto_Progra_Avanzada\ob
 C:\Users\wayne\Source\Repos\Proyecto_Progra_Avanzada\Proyecto_Progra_Avanzada\obj\Debug\net8.0\Proyecto_Progra_Avanzada.pdb
 C:\Users\wayne\Source\Repos\Proyecto_Progra_Avanzada\Proyecto_Progra_Avanzada\obj\Debug\net8.0\Proyecto_Progra_Avanzada.genruntimeconfig.cache
 C:\Users\wayne\Source\Repos\Proyecto_Progra_Avanzada\Proyecto_Progra_Avanzada\obj\Debug\net8.0\ref\Proyecto_Progra_Avanzada.dll
+C:\Users\alfre\Documents\GitHub\Proyecto_Progra_Avanzada\Proyecto_Progra_Avanzada\obj\Debug\net8.0\Proyecto_Progra_Avanzada.sourcelink.json

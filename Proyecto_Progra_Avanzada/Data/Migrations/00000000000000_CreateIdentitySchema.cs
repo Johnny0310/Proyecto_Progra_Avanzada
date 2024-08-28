@@ -6,6 +6,11 @@ namespace Proyecto_Progra_Avanzada.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {
+
+        private string Entrenador = Guid.NewGuid().ToString();
+        private string Administrador = Guid.NewGuid().ToString();
+        private string Enfermero = Guid.NewGuid().ToString();
+
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
@@ -40,7 +45,7 @@ namespace Proyecto_Progra_Avanzada.Data.Migrations
                     TwoFactorEnabled = table.Column<bool>(nullable: false),
                     LockoutEnd = table.Column<DateTimeOffset>(nullable: true),
                     LockoutEnabled = table.Column<bool>(nullable: false),
-                    AccessFailedCount = table.Column<int>(nullable: false)
+                    AccessFailedCount = table.Column<int>(nullable: false),
                 },
                 constraints: table =>
                 {
@@ -153,6 +158,9 @@ namespace Proyecto_Progra_Avanzada.Data.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+
+            SeedRolesSQL(migrationBuilder);
+
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
                 table: "AspNetRoleClaims",
@@ -215,6 +223,17 @@ namespace Proyecto_Progra_Avanzada.Data.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");
+        }
+
+
+        private void SeedRolesSQL(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.Sql(@$"INSERT INTO [dbo].[AspNetRoles] ([Id],[Name],[NormalizedName],[ConcurrencyStamp])
+                VALUES ('{Entrenador}', 'Entrenador', 'Entrenador', null);");
+            migrationBuilder.Sql(@$"INSERT INTO [dbo].[AspNetRoles] ([Id],[Name],[NormalizedName],[ConcurrencyStamp])
+                VALUES ('{Administrador}', 'Administrador', 'Administrador', null);");
+            migrationBuilder.Sql(@$"INSERT INTO [dbo].[AspNetRoles] ([Id],[Name],[NormalizedName],[ConcurrencyStamp])
+                VALUES ('{Enfermero}', 'Enfermero', 'Enfermero', null);");
         }
     }
 }

@@ -25,7 +25,7 @@ namespace Proyecto_Progra_Avanzada.Controllers
         // GET: AspNetRolesController/Details/5
         public ActionResult Details(String id)
         {
-            var role = _context.Roles.FirstOrDefaultAsync( r => r.Id.String.ToList());
+            var role = _context.Roles.FirstOrDefaultAsync( r => r.Id == id);
             return View();
         }
 
