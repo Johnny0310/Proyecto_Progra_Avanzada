@@ -1,7 +1,7 @@
-﻿@model IEnumerable<Proyecto_Progra_Avanzada.Models.ApplicationUser>
+﻿@model IEnumerable<Proyecto_Progra_Avanzada.Models.Retos>
 
 
-<h2>Mis Retos</h2>
+<h2>Retos Actuales</h2>
 
 <table class="table">
     <thead>
@@ -9,22 +9,22 @@
             <th>Nombre</th>
             <th>Apellido</th>
             <th>Correo</th>
-            <th>Empezar Reto</th>
+            <th>Acertar Reto</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var userList in Model)
         {
             <tr>
-                <td>@userList.FirstName</td>
-                <td>@userList.LastName</td>
-                <td>@userList.UserName</td>
+                <td>@userList.RetadorID.</td>
+                <td>@userList.RetadoID</td>
+                <td>@userList.FechaReto</td>
                 <td>
-                    <form method="post" asp-controller="Home" asp-action="SubmitReto">
+                    <form method="post" asp-controller="Retos" asp-action="SubmitReto">
                         <input type="hidden" name=RetadorID value=@ViewData["RetadorID"] />
-                        <input type="hidden" name=RetadoID value=@userList.Id />
+                        <input type="hidden" name=RetadoID value=@userList.RetoID />
                         <input type="hidden" name="FechaReto" value="@DateTime.Now.ToString()" />
-                        <button type="submit">Retar</button>
+                        <button type="submit">Aceptar</button>
                     </form>
                 </td>
             </tr>

@@ -10,7 +10,7 @@ using Proyecto_Progra_Avanzada.Models;
 
 namespace Proyecto_Progra_Avanzada.Controllers
 {
-    //[Authorize(Roles = "Entrenador")]
+    [Authorize(Roles = "Entrenador")]
     public class RetosController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -24,29 +24,36 @@ namespace Proyecto_Progra_Avanzada.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var currentUser = await _userManager.GetUserAsync(User);
-            var retos = await _context.Retos
-                .Where(r => r.RetadorID == currentUser.Id || r.RetadoID == currentUser.Id)
-                .ToListAsync();
-            return View(retos);
+            ViewData["RetadorID"] = _userManager.GetUserId(this.User);
+            string user = _userManager.GetUserId(this.User);
+            return View(_context.ApplicationUsers.Where(p => p.IsOnline == true &&  p.Id != user).ToList());
+        }
+        public async Task<IActionResult> VerRetos()
+        {
+            ViewData["RetadorID"] = _userManager.GetUserId(this.User);
+            return View(_context.Retos.ToList());
         }
 
-        /*
+
+
         [HttpPost]
-        public async Task<IActionResult> CrearReto(string retadoId)
+        public async Task<IActionResult> SubmitReto(string RetadorID, string RetadoID, DateTime FechaReto)
         {
-            var retador = await _userManager.GetUserAsync(User);
-            var reto = new Retos
+            using (_context)
             {
-                RetadorID = retador.Id,
-                RetadoID = retadoId,
-                FechaReto = DateTime.Now,
-                Estado = "Pendiente"
-            };
-            _context.Retos.Add(reto);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+                var reto = new Retos
+                {
+                    RetadorID = RetadorID,
+                    RetadoID = RetadoID,
+                    FechaReto = FechaReto,
+                    Ganador = "N/A"
+                };
+
+                _context.Retos.Add(reto);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("VerRetos");
+            }
         }
-        */
+        
     }
 }

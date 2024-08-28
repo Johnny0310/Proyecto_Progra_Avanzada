@@ -135,13 +135,6 @@ namespace Proyecto_Progra_Avanzada.Controllers
             return View(userPokedexList);
         }
 
-
-        public IActionResult Retos2()
-        {
-            ViewData["RetadorID"] = _userManager.GetUserId(this.User);
-            return View(_context.ApplicationUsers.Where(p => p.IsOnline == true).ToList());
-        }
-
         public IActionResult MarkLogin()
         {
             var userId = _userManager.GetUserId(this.User);
@@ -175,21 +168,6 @@ namespace Proyecto_Progra_Avanzada.Controllers
                 return RedirectToAction("MainView");
             }
 
-        }
-
-        public IActionResult MarkLogOut()
-        {
-            var userId = _userManager.GetUserId(this.User);
-
-            var user = _context.ApplicationUsers.FirstOrDefault(p => p.Id == userId);
-
-            if (user != null)
-            {
-                user.IsOnline = false;
-                _context.SaveChanges();
-            }
-
-            return RedirectToAction("Retos2");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

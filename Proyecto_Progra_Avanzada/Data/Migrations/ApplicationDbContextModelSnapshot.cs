@@ -233,6 +233,181 @@ namespace Proyecto_Progra_Avanzada.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("Proyecto_Progra_Avanzada.Models.Chat", b =>
+                {
+                    b.Property<int>("ChatID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ChatID"));
+
+                    b.Property<DateTime>("FechaCreacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ChatID");
+
+                    b.ToTable("Chats");
+                });
+
+            modelBuilder.Entity("Proyecto_Progra_Avanzada.Models.MensajeChat", b =>
+                {
+                    b.Property<int>("MensajeChatID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MensajeChatID"));
+
+                    b.Property<int>("ChatID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Contenido")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("FechaEnvio")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UsuarioID")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("MensajeChatID");
+
+                    b.HasIndex("ChatID");
+
+                    b.HasIndex("UsuarioID");
+
+                    b.ToTable("MensajesChat");
+                });
+
+            modelBuilder.Entity("Proyecto_Progra_Avanzada.Models.ParticipanteChat", b =>
+                {
+                    b.Property<int>("ChatID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UsuarioID")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("FechaUnion")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("ChatID", "UsuarioID");
+
+                    b.HasIndex("UsuarioID");
+
+                    b.ToTable("ParticipantesChat");
+                });
+
+            modelBuilder.Entity("Proyecto_Progra_Avanzada.Models.Pokedex", b =>
+                {
+                    b.Property<int>("id_Pokedex")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id_Pokedex"));
+
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PokemonID")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("fecha_captura")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("numeroEvolucion")
+                        .HasColumnType("int");
+
+                    b.Property<int>("victorias")
+                        .HasColumnType("int");
+
+                    b.Property<int>("vida")
+                        .HasColumnType("int");
+
+                    b.HasKey("id_Pokedex");
+
+                    b.ToTable("Pokedex");
+                });
+
+            modelBuilder.Entity("Proyecto_Progra_Avanzada.Models.Pokemon", b =>
+                {
+                    b.Property<int>("pokemonID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("pokemonID"));
+
+                    b.Property<string>("debilidad")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("numeroEvolucion")
+                        .HasColumnType("int");
+
+                    b.Property<float>("peso")
+                        .HasColumnType("real");
+
+                    b.Property<int>("tipoID")
+                        .HasColumnType("int");
+
+                    b.HasKey("pokemonID");
+
+                    b.ToTable("Pokemon");
+                });
+
+            modelBuilder.Entity("Proyecto_Progra_Avanzada.Models.Retos", b =>
+                {
+                    b.Property<int>("RetoID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RetoID"));
+
+                    b.Property<DateTime>("FechaReto")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Ganador")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RetadoID")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RetadorID")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("RetoID");
+
+                    b.ToTable("Retos");
+                });
+
+            modelBuilder.Entity("Proyecto_Progra_Avanzada.Models.TiposPokemon", b =>
+                {
+                    b.Property<int>("tipoID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("tipoID"));
+
+                    b.Property<string>("nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("tipoID");
+
+                    b.ToTable("TiposPokemon");
+                });
+
             modelBuilder.Entity("Proyecto_Progra_Avanzada.Models.ApplicationUser", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
@@ -300,6 +475,39 @@ namespace Proyecto_Progra_Avanzada.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Proyecto_Progra_Avanzada.Models.MensajeChat", b =>
+                {
+                    b.HasOne("Proyecto_Progra_Avanzada.Models.Chat", null)
+                        .WithMany("MensajesChat")
+                        .HasForeignKey("ChatID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "Usuario")
+                        .WithMany()
+                        .HasForeignKey("UsuarioID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("Proyecto_Progra_Avanzada.Models.ParticipanteChat", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "Usuario")
+                        .WithMany()
+                        .HasForeignKey("UsuarioID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("Proyecto_Progra_Avanzada.Models.Chat", b =>
+                {
+                    b.Navigation("MensajesChat");
                 });
 #pragma warning restore 612, 618
         }
