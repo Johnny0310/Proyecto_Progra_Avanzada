@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Proyecto_Progra_Avanzada.Models.Pokedex>
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<body>
+    <h1>Lista de Pokemones para curar</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.id_Pokedex)</th>
+                <th>@Html.DisplayNameFor(model => model.PokemonID)</th>
+                <th>@Html.DisplayNameFor(model => model.fecha_captura)</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.id_Pokedex)</td>
+                    <td>@Html.DisplayFor(modelItem => item.PokemonID)</td>
+                    <td>@Html.DisplayFor(modelItem => item.fecha_captura)</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.id_Pokedex" class="btn btn-primary">Editar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</body>

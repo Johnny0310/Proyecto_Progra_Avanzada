@@ -3,52 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\controllers\\enfermerocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\controllers\\enfermerocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\views\\home\\chooserole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\views\\home\\chooserole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\controllers\\aspnetrolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\controllers\\aspnetrolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\controllers\\retoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\controllers\\retoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\views\\retos\\verretos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\views\\retos\\verretos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\models\\retos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\models\\retos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\views\\retos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\views\\retos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\controllers\\pokedexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\controllers\\pokedexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PokedexController.cs",
+              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Controllers\\PokedexController.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Controllers\\PokedexController.cs",
+              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Controllers\\PokedexController.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Controllers\\PokedexController.cs",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAuwJAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T06:14:04.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACQAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-28T05:55:29.202Z",
+              "Title": "EnfermeroController.cs",
+              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Controllers\\EnfermeroController.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Controllers\\EnfermeroController.cs",
+              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Controllers\\EnfermeroController.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Controllers\\EnfermeroController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T06:11:43.179Z",
               "EditorCaption": ""
             },
             {
@@ -84,139 +57,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ChooseRole.cshtml",
-              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Home\\ChooseRole.cshtml",
-              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Views\\Home\\ChooseRole.cshtml",
-              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Home\\ChooseRole.cshtml",
-              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Views\\Home\\ChooseRole.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-28T05:46:44.75Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AspNetRolesController.cs",
-              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Controllers\\AspNetRolesController.cs",
-              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Controllers\\AspNetRolesController.cs",
-              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Controllers\\AspNetRolesController.cs",
-              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Controllers\\AspNetRolesController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAIwDAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T05:42:05.571Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\appsettings.json",
-              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\appsettings.json",
-              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\appsettings.json",
-              "RelativeToolTip": "Proyecto_Progra_Avanzada\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-28T04:58:45.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ChatController.cs",
-              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Controllers\\ChatController.cs",
-              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Controllers\\ChatController.cs",
-              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Controllers\\ChatController.cs",
-              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Controllers\\ChatController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T04:33:39.487Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Chat\\Index.cshtml",
-              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Views\\Chat\\Index.cshtml",
-              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Chat\\Index.cshtml",
-              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Views\\Chat\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACUAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-28T04:31:42.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Retos.cs",
-              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Models\\Retos.cs",
-              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Models\\Retos.cs",
-              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Models\\Retos.cs",
-              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Models\\Retos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T03:37:24.718Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "VerRetos.cshtml",
-              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Retos\\VerRetos.cshtml",
-              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Views\\Retos\\VerRetos.cshtml",
-              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Retos\\VerRetos.cshtml",
-              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Views\\Retos\\VerRetos.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-28T03:34:20.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RetosController.cs",
-              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Controllers\\RetosController.cs",
-              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Controllers\\RetosController.cs",
-              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Controllers\\RetosController.cs",
-              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Controllers\\RetosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T03:22:26.45Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Retos\\Index.cshtml",
-              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Views\\Retos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Retos\\Index.cshtml",
-              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Views\\Retos\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-28T03:21:40.73Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T00:17:33.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAJQAAAAAAAAAAAAYwKoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T00:13:43.147Z"
             }
           ]
         }
