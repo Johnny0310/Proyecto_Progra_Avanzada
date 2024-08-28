@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Proyecto_Progra_Avanzada.Data;
 using Proyecto_Progra_Avanzada.Models;
 using System.Diagnostics;
@@ -175,5 +176,142 @@ namespace Proyecto_Progra_Avanzada.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        // GET: Pokedex/Edit/5
+        public async Task<IActionResult> Edit(int? id)
+        {
+            var pokedex = await _context.Pokedex.FindAsync(id);
+            /*
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var pokedex = await _context.Pokedex.FindAsync(id);
+            if (pokedex == null)
+            {
+                return NotFound();
+            }*/
+            return View(pokedex);
+        }
+
+        // POST: Pokedex/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(Pokedex viewModelPokedex)
+        {
+            var pokedex = await _context.Pokedex.FindAsync(viewModelPokedex.id_Pokedex);
+            if (pokedex is not null)
+            {
+
+                pokedex.PokemonID = viewModelPokedex.PokemonID;
+                pokedex.fecha_captura = viewModelPokedex.fecha_captura;
+                pokedex.victorias = viewModelPokedex.victorias;
+                pokedex.numeroEvolucion = viewModelPokedex.numeroEvolucion;
+                pokedex.vida = viewModelPokedex.vida;
+
+                await _context.SaveChangesAsync();
+
+            };
+            return RedirectToAction("OpenPokedex");
+
+
+
+
+            /*
+            if (id != pokedex.id_Pokedex)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(pokedex);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!PokedexExists(pokedex.id_Pokedex))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            */
+            return View(pokedex);
+        }
+
+        // GET: Pokedex/Delete/5
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var pokedex = await _context.Pokedex
+                .FirstOrDefaultAsync(m => m.id_Pokedex == id);
+            if (pokedex == null)
+            {
+                return NotFound();
+            }
+
+            return View(pokedex);
+        }
+
+        // POST: Pokedex/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(Pokedex viewModelPokedex)
+        {
+            var pokedex = await _context.Pokedex.AsNoTracking()
+                .FirstOrDefaultAsync(x => x.id_Pokedex == viewModelPokedex.id_Pokedex);
+            if (pokedex is not null)
+            {
+                _context.Pokedex.Remove(viewModelPokedex);
+                await _context.SaveChangesAsync();
+
+            }
+            return RedirectToAction("OpenPokedex");
+            /*
+            var pokedex = await _context.Pokedex.FindAsync(id);
+            if (pokedex == null)
+            {
+                return NotFound();
+            }
+
+            _context.Pokedex.Remove(pokedex);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+            */
+        }
+        [HttpPost]
+        public async Task<IActionResult> DeleteAjax(int id)
+        {
+            var pokedex = await _context.Pokedex.FindAsync(id);
+            if (pokedex != null)
+            {
+                _context.Pokedex.Remove(pokedex);
+                await _context.SaveChangesAsync();
+                return Json(new { success = true });
+            }
+
+            return Json(new { success = false, message = "Pokémon no encontrado" });
+        }
+
+
     }
 }
+    
+        
+
+        
+    
+

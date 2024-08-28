@@ -1,0 +1,38 @@
+﻿@model Proyecto_Progra_Avanzada.Models.Pokedex
+
+@{
+    ViewData["Title"] = "Eliminar Registro en Pokedex";
+}
+
+<h1>Eliminar Registro en Pokedex</h1>
+
+<h4>¿Estás seguro de que deseas eliminar este registro?</h4>
+<hr />
+<dl class="row">
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.id_Pokedex)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.id_Pokedex)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.PokemonID)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.PokemonID)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.fecha_captura)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.fecha_captura)
+    </dd>
+</dl>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="id_Pokedex" />
+    <div class="form-group">
+        <input type="submit" value="Eliminar" class="btn btn-danger" />
+        <a asp-action="OpenPokedex" class="btn btn-secondary">Cancelar</a>
+    </div>
+</form>

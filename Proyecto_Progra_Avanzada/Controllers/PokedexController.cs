@@ -57,6 +57,7 @@ namespace Proyecto_Progra_Avanzada.Controllers
             {
                 Id= viewModelPokedex.Id,
                 PokemonID = viewModelPokedex.PokemonID,
+         
                 fecha_captura = viewModelPokedex.fecha_captura,
                 victorias = viewModelPokedex.victorias,
                 numeroEvolucion = viewModelPokedex.numeroEvolucion,

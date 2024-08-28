@@ -1,32 +1,59 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model IEnumerable<Proyecto_Progra_Avanzada.Models.Pokedex>
+
 @{
+    ViewData["Title"] = "Lista de Pokemones";
 }
-<body>
-    <h1>Lista de Pokemones</h1>
 
-    <table class="table">
-        <thead>
-            <tr>
-                <th>ID Pokedex</th>
-                <th>User ID</th>
-                <th>PokemonID</th>
-                <th>Fecha</th>
+<h1>Lista de Pokemones</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID Pokedex</th>
+            <th>PokemonID</th>
+            <th>Fecha</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pokedex in Model)
+        {
+            <tr id="row-@pokedex.id_Pokedex">
+                <td>@pokedex.id_Pokedex</td>
+                <td>@pokedex.PokemonID</td>
+                <td>@pokedex.fecha_captura</td>
+                <td>
+                    <button class="btn btn-warning" onclick="location.href='@Url.Action("Edit", new { id = pokedex.id_Pokedex })'">Editar</button>
+                    <button class="btn btn-danger" onclick="deletePokemon(@pokedex.id_Pokedex)">Eliminar</button>
+                </td>
             </tr>
-        </thead>
-        <tbody>
-            @foreach (var pokedex in Model)
-            {
-                <tr>
-                    <td>@pokedex.id_Pokedex</td>
-                    <td>@pokedex.Id</td>
-                    <td>@pokedex.PokemonID</td>
-                    <td>@pokedex.fecha_captura</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+        }
+    </tbody>
+</table>
 
-    <button type="button" onclick="location.href='@Url.Action("MainView", "Home")'" class="btn btn-primary">Go Back</button>
-</body>
+<button type="button" onclick="location.href='@Url.Action("MainView")'" class="btn btn-primary">Go Back</button>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        function deletePokemon(id) {
+            if (confirm("¿Estás seguro de que deseas eliminar este Pokémon?")) {
+                $.ajax({
+                    url: '@Url.Action("DeleteAjax")',
+                    type: 'POST',
+                    data: { id: id },
+                    success: function (result) {
+                        if (result.success) {
+                            $("#row-" + id).remove();
+                        } else {
+                            alert(result.message || "Error al eliminar el Pokémon.");
+                        }
+                    },
+                    error: function () {
+                        alert("Error al realizar la solicitud.");
+                    }
+                });
+            }
+        }
+    </script>
+}
