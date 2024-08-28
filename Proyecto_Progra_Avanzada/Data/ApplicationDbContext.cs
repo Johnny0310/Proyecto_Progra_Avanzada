@@ -15,11 +15,16 @@ namespace Proyecto_Progra_Avanzada.Data
         public DbSet<MensajeChat> MensajesChat { get; set; }
         public DbSet<ParticipanteChat> ParticipantesChat { get; set; }
 
+        // Agrega la tabla Chats
+        public DbSet<Chat> Chats { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
 
-
+            // Configura la clave primaria compuesta para ParticipantesChat
+            builder.Entity<ParticipanteChat>()
+                .HasKey(pc => new { pc.ChatID, pc.UsuarioID });
         }
     }
 }

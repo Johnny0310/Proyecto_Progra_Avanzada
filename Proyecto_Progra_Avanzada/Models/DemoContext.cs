@@ -4,7 +4,7 @@ namespace Proyecto_Progra_Avanzada.Models
 {
     class DemoContext : DbContext
     {
-        string DBJohnny = "Server=DESKTOP-28F731Q\\SQLEXPRESS;Database=db_Poryecto_Progra_Avanzada;Trusted_Connection=True;TrustServerCertificate=True;";
+        string DBJohnny = "Server=DESKTOP-N9KIN1T\\SQLEXPRESS;Database=db_Poryecto_Progra_Avanzada;Trusted_Connection=True;TrustServerCertificate=True;";
         string DBWayner = "Server=LAPTOP-WAYNER;Database=db_Snake_Game;Trusted_Connection=True;TrustServerCertificate=True;";
         public DemoContext()
         {

@@ -1,34 +1,102 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\",
+  "WorkspaceRootPath": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\controllers\\retoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\controllers\\retoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\data\\migrations\\20240814050814_seedroles2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\data\\migrations\\20240814050814_seedroles2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\models\\participantechat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\models\\participantechat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\models\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\models\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\models\\mensajechat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\models\\mensajechat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\proyecto_progra_avanzada.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\proyecto_progra_avanzada.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\alfre\\documents\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\views\\home\\openpokedex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\views\\home\\openpokedex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\models\\pokedex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\models\\pokedex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\views\\retos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\views\\retos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\data\\migrations\\20240817023152_mssql.local_migration_823.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\data\\migrations\\20240817023152_mssql.local_migration_823.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\data\\migrations\\20240817023918_mssql.local_migration_318.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\data\\migrations\\20240817023918_mssql.local_migration_318.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\data\\migrations\\20240814050814_seedroles2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\data\\migrations\\20240814050814_seedroles2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\views\\home\\mainview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\views\\home\\mainview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\views\\home\\chooserole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\views\\home\\chooserole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|c:\\users\\mauricio\\onedrive\\documentos\\github\\proyecto_progra_avanzada\\proyecto_progra_avanzada\\models\\aspnetusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016F3424-FE12-4E6B-B145-BA69C285C05F}|Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj|solutionrelative:proyecto_progra_avanzada\\models\\aspnetusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,60 +106,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RetosController.cs",
-              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Controllers\\RetosController.cs",
-              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Controllers\\RetosController.cs",
-              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Controllers\\RetosController.cs",
-              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Controllers\\RetosController.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAswBUAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T18:35:52.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ChatController.cs",
-              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Controllers\\ChatController.cs",
-              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Controllers\\ChatController.cs",
-              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Controllers\\ChatController.cs",
-              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Controllers\\ChatController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAwAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T18:35:11.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAB5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-14T18:33:34.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T18:29:04.746Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -110,40 +126,297 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20240814050814_SeedRoles2.cs",
-              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Data\\Migrations\\20240814050814_SeedRoles2.cs",
-              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Data\\Migrations\\20240814050814_SeedRoles2.cs",
-              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Data\\Migrations\\20240814050814_SeedRoles2.cs",
-              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Data\\Migrations\\20240814050814_SeedRoles2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Models\\Chat.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Models\\Chat.cs",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Models\\Chat.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Models\\Chat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T05:08:14.951Z",
+              "WhenOpened": "2024-08-27T05:49:29.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ParticipanteChat.cs",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Models\\ParticipanteChat.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Models\\ParticipanteChat.cs",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Models\\ParticipanteChat.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Models\\ParticipanteChat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T05:34:16.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T05:36:59.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "OpenPokedex.cshtml",
-              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Home\\OpenPokedex.cshtml",
-              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Views\\Home\\OpenPokedex.cshtml",
-              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Home\\OpenPokedex.cshtml",
-              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Views\\Home\\OpenPokedex.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T00:49:11.231Z"
+              "Title": "MensajeChat.cs",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Models\\MensajeChat.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Models\\MensajeChat.cs",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Models\\MensajeChat.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Models\\MensajeChat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T05:33:29.594Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Controllers\\ChatController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T05:28:47.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Chat\\Index.cshtml",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Views\\Chat\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Chat\\Index.cshtml",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Views\\Chat\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T05:49:59.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Program.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Program.cs",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Program.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T07:20:10.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-08-27T07:21:05.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T07:21:08.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T07:21:11.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T03:44:15.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240814050814_SeedRoles2.cs",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Data\\Migrations\\20240814050814_SeedRoles2.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Data\\Migrations\\20240814050814_SeedRoles2.cs",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Data\\Migrations\\20240814050814_SeedRoles2.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Data\\Migrations\\20240814050814_SeedRoles2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T03:43:43.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "00000000000000_CreateIdentitySchema.cs",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T03:43:39.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Retos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Views\\Retos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Retos\\Index.cshtml",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Views\\Retos\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T06:02:36.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\appsettings.json",
               "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\appsettings.json",
-              "ToolTip": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\appsettings.json",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\appsettings.json",
               "RelativeToolTip": "Proyecto_Progra_Avanzada\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-18T03:30:22.707Z"
+              "WhenOpened": "2024-08-27T07:23:39.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Proyecto_Progra_Avanzada",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-27T07:24:50.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240817023152_mssql.local_migration_823.cs",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Data\\Migrations\\20240817023152_mssql.local_migration_823.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Data\\Migrations\\20240817023152_mssql.local_migration_823.cs",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Data\\Migrations\\20240817023152_mssql.local_migration_823.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Data\\Migrations\\20240817023152_mssql.local_migration_823.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T03:43:49.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Pokedex.cs",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Models\\Pokedex.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Models\\Pokedex.cs",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Models\\Pokedex.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Models\\Pokedex.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T05:32:59.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T06:01:20.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240817023918_mssql.local_migration_318.cs",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Data\\Migrations\\20240817023918_mssql.local_migration_318.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Data\\Migrations\\20240817023918_mssql.local_migration_318.cs",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Data\\Migrations\\20240817023918_mssql.local_migration_318.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Data\\Migrations\\20240817023918_mssql.local_migration_318.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T03:44:07.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ChooseRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Home\\ChooseRole.cshtml",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Views\\Home\\ChooseRole.cshtml",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Home\\ChooseRole.cshtml",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Views\\Home\\ChooseRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T06:00:19.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MainView.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Home\\MainView.cshtml",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Views\\Home\\MainView.cshtml",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Home\\MainView.cshtml",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Views\\Home\\MainView.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T06:01:09.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T06:02:10.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AspNetUsers.cs",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Models\\AspNetUsers.cs",
+              "RelativeDocumentMoniker": "Proyecto_Progra_Avanzada\\Models\\AspNetUsers.cs",
+              "ToolTip": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Models\\AspNetUsers.cs",
+              "RelativeToolTip": "Proyecto_Progra_Avanzada\\Models\\AspNetUsers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T05:35:02.985Z"
             }
           ]
         }

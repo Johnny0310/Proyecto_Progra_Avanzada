@@ -79,7 +79,10 @@ namespace Proyecto_Progra_Avanzada.Controllers
                     {
                         Id = UserId,
                         PokemonID = PokemonID,
-                        fecha_captura = fecha_captura
+                        numeroEvolucion = 1,
+                        fecha_captura = fecha_captura,
+                        vida = 100,
+                        victorias = 0
                     };
 
                     context.Pokedex.Add(pokedex);

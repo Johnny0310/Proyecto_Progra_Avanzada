@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Proyecto_Progra_Avanzada.Data;
 
@@ -11,9 +12,11 @@ using Proyecto_Progra_Avanzada.Data;
 namespace Proyecto_Progra_Avanzada.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240817023918_mssql.local_migration_318")]
+    partial class mssqllocal_migration_318
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -232,26 +235,23 @@ namespace Proyecto_Progra_Avanzada.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MensajeID"));
 
+                    b.Property<int>("ChatID")
+                        .HasColumnType("int");
+
                     b.Property<string>("Contenido")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("EmisorID")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
                     b.Property<DateTime>("FechaEnvio")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("ReceptorID")
+                    b.Property<string>("UsuarioID")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("MensajeID");
 
-                    b.HasIndex("EmisorID");
-
-                    b.HasIndex("ReceptorID");
+                    b.HasIndex("UsuarioID");
 
                     b.ToTable("MensajesChat");
                 });
@@ -363,21 +363,13 @@ namespace Proyecto_Progra_Avanzada.Data.Migrations
 
             modelBuilder.Entity("Proyecto_Progra_Avanzada.Models.MensajeChat", b =>
                 {
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "Emisor")
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "Usuario")
                         .WithMany()
-                        .HasForeignKey("EmisorID")
+                        .HasForeignKey("UsuarioID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "Receptor")
-                        .WithMany()
-                        .HasForeignKey("ReceptorID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Emisor");
-
-                    b.Navigation("Receptor");
+                    b.Navigation("Usuario");
                 });
 
             modelBuilder.Entity("Proyecto_Progra_Avanzada.Models.ParticipanteChat", b =>

@@ -2,15 +2,69 @@
 
 <h2>Mis Chats</h2>
 
-@foreach (var chatId in Model)
-{
-    <div>
-        <h3>Chat @chatId</h3>
+<form method="post" asp-controller="Chat" asp-action="IniciarChat">
+    <select id="ReceptorId" name="ReceptorId">
+        @foreach (var user in ViewBag.AllUsers)
+        {
+            <option value="@user.Id">@user.UserName</option>
+        }
+    </select>
+    <button type="submit" class="btn btn-primary">Iniciar Nuevo Chat</button>
+</form>
 
-        <form asp-action="EnviarMensaje" method="post">
-            <input type="hidden" name="chatId" value="@chatId" />
-            <input type="text" name="contenido" required />
-            <button type="submit">Enviar</button>
-        </form>
-    </div>
-}
+<table class="table">
+    <thead>
+        <tr>
+            <th>Chat ID</th>
+            <th>Participante</th>
+            <th>Mensajes</th>
+            <th>Enviar Mensaje</th>
+            <th>Eliminar Chat</th> 
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Any())
+        {
+            @foreach (var chatId in Model)
+            {
+                <tr>
+                    <td>@chatId</td>
+                    <td>@ViewBag.ChatParticipants[chatId]</td>
+                    <td>
+                        <ul>
+                            @if (ViewBag.ChatMessages.ContainsKey(chatId))
+                            {
+                                var messages = ViewBag.ChatMessages[chatId];
+                                foreach (var message in messages)
+                                {
+                                    <li>
+                                        <strong>@message.UsuarioID:</strong> @message.Contenido <em>@message.FechaEnvio</em>
+                                    </li>
+                                }
+                            }
+                        </ul>
+                    </td>
+                    <td>
+                        <form method="post" asp-action="EnviarMensaje" style="display: inline;">
+                            <input type="hidden" name="chatId" value="@chatId" />
+                            <input type="text" name="contenido" required placeholder="Escribe tu mensaje..." />
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </td>
+                    <td>
+                        <form method="post" asp-action="EliminarChat" style="display: inline;">
+                            <input type="hidden" name="chatId" value="@chatId" />
+                            <button type="submit" class="btn btn-danger">Eliminar</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5">No tienes chats activos.</td>
+            </tr>
+        }
+    </tbody>
+</table>
