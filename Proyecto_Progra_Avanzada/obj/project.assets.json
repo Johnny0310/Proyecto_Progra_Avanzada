@@ -8609,19 +8609,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alfre\\.nuget\\packages\\": {}
+    "C:\\Users\\Mauricio\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj",
+      "projectUniqueName": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj",
       "projectName": "Proyecto_Progra_Avanzada",
-      "projectPath": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj",
-      "packagesPath": "C:\\Users\\alfre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alfre\\Documents\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\obj\\",
+      "projectPath": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada.csproj",
+      "packagesPath": "C:\\Users\\Mauricio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mauricio\\OneDrive\\Documentos\\GitHub\\Proyecto_Progra_Avanzada\\Proyecto_Progra_Avanzada\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\alfre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mauricio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

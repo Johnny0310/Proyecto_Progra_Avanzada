@@ -20,14 +20,14 @@ namespace Proyecto_Progra_Avanzada.Data
         public DbSet<Retos> Retos { get; set; }
         public DbSet<Pokemon> Pokemon { get; set; }
         public DbSet<TiposPokemon> TiposPokemon { get; set; }
-        // Agrega la tabla Chats
+       
         public DbSet<Chat> Chats { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
 
-            // Configura la clave primaria compuesta para ParticipantesChat
+            
             builder.Entity<ParticipanteChat>()
                 .HasKey(pc => new { pc.ChatID, pc.UsuarioID });
         }

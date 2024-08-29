@@ -8,6 +8,7 @@ using System.Diagnostics;
 
 namespace Proyecto_Progra_Avanzada.Controllers
 {
+    [Authorize(Roles = "Entrenador")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -86,7 +87,7 @@ namespace Proyecto_Progra_Avanzada.Controllers
 
             return Content("<a>SALIO MAL</a>");
         }
-
+        [Authorize(Roles = "Entrenador")]
         // Metodo para introducir Pokemon en Pokedex
 
         [HttpPost]
@@ -134,19 +135,19 @@ namespace Proyecto_Progra_Avanzada.Controllers
             var userApplication = _context.Users.FirstOrDefault(u => u.Id == userId);
             var userPokemon = _context.Pokemon.Where(p => p.pokemonID == 1).ToList();
 
-            // Check for null before passing to the view
+            
             if (userApplication == null)
             {
-                // Handle the case where the user is not found in the database
-                return NotFound(); // or another appropriate action
+                
+                return NotFound(); 
             }
 
-            // Store data in ViewBag or ViewData to pass it to the view
+            
             ViewBag.PokedexList = userPokedexList;
             ViewBag.UserDetails = userApplication;
             ViewBag.UserPokemon = userPokemon;
 
-            // Return the view with the necessary data
+            
             return View();
         }
         public IActionResult MarkLogin()
@@ -190,6 +191,7 @@ namespace Proyecto_Progra_Avanzada.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
+        [Authorize(Roles = "Entrenador")]
         // GET: Pokedex/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -260,7 +262,7 @@ namespace Proyecto_Progra_Avanzada.Controllers
             */
             return View(pokedex);
         }
-
+        [Authorize(Roles = "Entrenador")]
         // GET: Pokedex/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {

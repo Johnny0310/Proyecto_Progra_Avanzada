@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Proyecto_Progra_Avanzada.Data;
@@ -16,6 +17,7 @@ namespace Proyecto_Progra_Avanzada.Controllers
         {
             _context = context;
         }
+        [Authorize(Roles = "Administrador")]
 
         // GET: Pokedex
         public async Task<IActionResult> Index()
