@@ -1,7 +1,8 @@
-﻿@model IEnumerable<Proyecto_Progra_Avanzada.Models.Pokedex>
-
-@{
+﻿@{
     ViewData["Title"] = "Lista de Pokemones";
+
+    var userPokedexList = ViewBag.PokedexList as List<Pokedex>;
+    var userDetails = ViewBag.UserDetails as ApplicationUser;
 }
 
 <h1>Lista de Pokemones</h1>
@@ -9,17 +10,17 @@
 <table class="table">
     <thead>
         <tr>
-            <th>ID Pokedex</th>
-            <th>PokemonID</th>
-            <th>Fecha</th>
+            <th>User Name</th>
+            <th>ID Pokemon</th>
+            <th>Fecha de Captura</th>
             <th>Acciones</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var pokedex in Model)
+        @foreach (var pokedex in userPokedexList)
         {
-            <tr id="row-@pokedex.id_Pokedex">
-                <td>@pokedex.id_Pokedex</td>
+            <tr>
+                <td>@userDetails.FirstName</td>
                 <td>@pokedex.PokemonID</td>
                 <td>@pokedex.fecha_captura</td>
                 <td>

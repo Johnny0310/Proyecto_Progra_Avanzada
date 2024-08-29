@@ -30,7 +30,10 @@ namespace Proyecto_Progra_Avanzada.Controllers
         }
         public async Task<IActionResult> VerRetos()
         {
+            string userId = _userManager.GetUserId(this.User);
+            var userApplication = _context.Users.FirstOrDefault(u => u.Id == userId);
             ViewData["RetadorID"] = _userManager.GetUserId(this.User);
+            ViewBag.UserDetails = userApplication;
             return View(_context.Retos.ToList());
         }
 

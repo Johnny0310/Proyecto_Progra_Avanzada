@@ -1,5 +1,6 @@
-﻿@model IEnumerable<Proyecto_Progra_Avanzada.Models.Retos>
-
+﻿@{
+    var userDetails = ViewBag.UserDetails as ApplicationUser;
+}
 
 <h2>Retos Actuales</h2>
 
@@ -16,8 +17,8 @@
         @foreach (var userList in Model)
         {
             <tr>
-                <td>@userList.RetadorID.</td>
-                <td>@userList.RetadoID</td>
+                <td>@userDetails.FirstName.</td>
+                <td>@userDetails.LastName</td>
                 <td>@userList.FechaReto</td>
                 <td>
                     <form method="post" asp-controller="Retos" asp-action="SubmitReto">

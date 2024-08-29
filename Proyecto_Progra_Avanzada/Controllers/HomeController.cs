@@ -121,21 +121,34 @@ namespace Proyecto_Progra_Avanzada.Controllers
         public IActionResult OpenPokedex()
         {
             // Get the current logged-in user's ID from the session or authentication context
-            var userId = _userManager.GetUserId(this.User);
+            string userId = _userManager.GetUserId(this.User);
 
-            List<Pokedex> userPokedexList;
-            using (_context)
+            if (string.IsNullOrEmpty(userId))
             {
-                // Filter Pokedex records by the logged-in user's ID
-                userPokedexList = _context.Pokedex
-                    .Where(p => p.Id == userId)
-                    .ToList();
+                // Handle the case where the user is not logged in
+                return RedirectToAction("Login", "Account"); // or an appropriate action
             }
 
-            // Pass the filtered list of Pokedex records to the view
-            return View(userPokedexList);
-        }
+            // Retrieve the user's Pokedex and ApplicationUser data
+            var userPokedexList = _context.Pokedex.Where(p => p.Id == userId).ToList();
+            var userApplication = _context.Users.FirstOrDefault(u => u.Id == userId);
+            var userPokemon = _context.Pokemon.Where(p => p.pokemonID == 1).ToList();
 
+            // Check for null before passing to the view
+            if (userApplication == null)
+            {
+                // Handle the case where the user is not found in the database
+                return NotFound(); // or another appropriate action
+            }
+
+            // Store data in ViewBag or ViewData to pass it to the view
+            ViewBag.PokedexList = userPokedexList;
+            ViewBag.UserDetails = userApplication;
+            ViewBag.UserPokemon = userPokemon;
+
+            // Return the view with the necessary data
+            return View();
+        }
         public IActionResult MarkLogin()
         {
             var userId = _userManager.GetUserId(this.User);
@@ -309,9 +322,4 @@ namespace Proyecto_Progra_Avanzada.Controllers
 
     }
 }
-    
-        
-
-        
-    
 
